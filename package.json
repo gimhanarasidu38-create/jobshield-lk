@@ -1,0 +1,20 @@
+{
+  "name": "jobshield-lk",
+  "version": "1.0.0",
+  "description": "AI-assisted job-ad scam checker for Sri Lankan job seekers (Sinhala / Tamil / English) with screenshot upload and community publisher reports. Zero runtime dependencies.",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {},
+  "optionalDependencies": {
+    "tesseract.js": "^5.1.1"
+  }
+}
